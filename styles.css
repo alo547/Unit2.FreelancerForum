@@ -1,0 +1,36 @@
+h1 {
+  color: #ff6f3c;
+  text-decoration: underline;
+}
+
+h2 {
+  color: #ff9a3c;
+}
+
+body {
+  background-color: #1d4f5d;
+}
+
+ul {
+  background-color: #ffc93c;
+  border: 1px solid #ddd;
+  padding: 17px;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+p {
+  background-color: #ffc93c;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+ul li:hover {
+  background-color: #ff6f3c;
+  border-color: #90caf9;
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
